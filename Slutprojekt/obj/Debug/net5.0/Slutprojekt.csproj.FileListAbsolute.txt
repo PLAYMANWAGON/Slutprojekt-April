@@ -1,0 +1,16 @@
+C:\Users\aironas.keturka\Documents\Mokykliniai Sudai\Gaming\Slutprojekt-April\Slutprojekt\bin\Debug\net5.0\Slutprojekt.exe
+C:\Users\aironas.keturka\Documents\Mokykliniai Sudai\Gaming\Slutprojekt-April\Slutprojekt\bin\Debug\net5.0\Slutprojekt.deps.json
+C:\Users\aironas.keturka\Documents\Mokykliniai Sudai\Gaming\Slutprojekt-April\Slutprojekt\bin\Debug\net5.0\Slutprojekt.runtimeconfig.json
+C:\Users\aironas.keturka\Documents\Mokykliniai Sudai\Gaming\Slutprojekt-April\Slutprojekt\bin\Debug\net5.0\Slutprojekt.runtimeconfig.dev.json
+C:\Users\aironas.keturka\Documents\Mokykliniai Sudai\Gaming\Slutprojekt-April\Slutprojekt\bin\Debug\net5.0\Slutprojekt.dll
+C:\Users\aironas.keturka\Documents\Mokykliniai Sudai\Gaming\Slutprojekt-April\Slutprojekt\bin\Debug\net5.0\ref\Slutprojekt.dll
+C:\Users\aironas.keturka\Documents\Mokykliniai Sudai\Gaming\Slutprojekt-April\Slutprojekt\bin\Debug\net5.0\Slutprojekt.pdb
+C:\Users\aironas.keturka\Documents\Mokykliniai Sudai\Gaming\Slutprojekt-April\Slutprojekt\obj\Debug\net5.0\Slutprojekt.csprojAssemblyReference.cache
+C:\Users\aironas.keturka\Documents\Mokykliniai Sudai\Gaming\Slutprojekt-April\Slutprojekt\obj\Debug\net5.0\Slutprojekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aironas.keturka\Documents\Mokykliniai Sudai\Gaming\Slutprojekt-April\Slutprojekt\obj\Debug\net5.0\Slutprojekt.AssemblyInfoInputs.cache
+C:\Users\aironas.keturka\Documents\Mokykliniai Sudai\Gaming\Slutprojekt-April\Slutprojekt\obj\Debug\net5.0\Slutprojekt.AssemblyInfo.cs
+C:\Users\aironas.keturka\Documents\Mokykliniai Sudai\Gaming\Slutprojekt-April\Slutprojekt\obj\Debug\net5.0\Slutprojekt.csproj.CoreCompileInputs.cache
+C:\Users\aironas.keturka\Documents\Mokykliniai Sudai\Gaming\Slutprojekt-April\Slutprojekt\obj\Debug\net5.0\Slutprojekt.dll
+C:\Users\aironas.keturka\Documents\Mokykliniai Sudai\Gaming\Slutprojekt-April\Slutprojekt\obj\Debug\net5.0\ref\Slutprojekt.dll
+C:\Users\aironas.keturka\Documents\Mokykliniai Sudai\Gaming\Slutprojekt-April\Slutprojekt\obj\Debug\net5.0\Slutprojekt.pdb
+C:\Users\aironas.keturka\Documents\Mokykliniai Sudai\Gaming\Slutprojekt-April\Slutprojekt\obj\Debug\net5.0\Slutprojekt.genruntimeconfig.cache
