@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aironas.keturka\\Documents\\Mokykliniai Sudai\\Gaming\\Slutprojekt-April\\Slutprojekt\\Slutprojekt.csproj": {}
+    "C:\\Users\\Aironas\\Documents\\Mokykla\\Gaming\\Slutprojekt-April\\Slutprojekt-April\\Slutprojekt\\Slutprojekt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aironas.keturka\\Documents\\Mokykliniai Sudai\\Gaming\\Slutprojekt-April\\Slutprojekt\\Slutprojekt.csproj": {
+    "C:\\Users\\Aironas\\Documents\\Mokykla\\Gaming\\Slutprojekt-April\\Slutprojekt-April\\Slutprojekt\\Slutprojekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aironas.keturka\\Documents\\Mokykliniai Sudai\\Gaming\\Slutprojekt-April\\Slutprojekt\\Slutprojekt.csproj",
+        "projectUniqueName": "C:\\Users\\Aironas\\Documents\\Mokykla\\Gaming\\Slutprojekt-April\\Slutprojekt-April\\Slutprojekt\\Slutprojekt.csproj",
         "projectName": "Slutprojekt",
-        "projectPath": "C:\\Users\\aironas.keturka\\Documents\\Mokykliniai Sudai\\Gaming\\Slutprojekt-April\\Slutprojekt\\Slutprojekt.csproj",
-        "packagesPath": "C:\\Users\\aironas.keturka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aironas.keturka\\Documents\\Mokykliniai Sudai\\Gaming\\Slutprojekt-April\\Slutprojekt\\obj\\",
+        "projectPath": "C:\\Users\\Aironas\\Documents\\Mokykla\\Gaming\\Slutprojekt-April\\Slutprojekt-April\\Slutprojekt\\Slutprojekt.csproj",
+        "packagesPath": "C:\\Users\\Aironas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aironas\\Documents\\Mokykla\\Gaming\\Slutprojekt-April\\Slutprojekt-April\\Slutprojekt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aironas.keturka\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Aironas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -6,6 +6,7 @@ namespace Slutprojekt
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine("==================================================");
             Console.WriteLine(" ██████╗  █████╗ ███╗   ███╗██╗███╗   ██╗ ██████╗ ");
             Console.WriteLine("██╔════╝ ██╔══██╗████╗ ████║██║████╗  ██║██╔════╝ ");
@@ -26,11 +27,13 @@ namespace Slutprojekt
             Console.ReadLine();
             Console.Clear();
 
+            statistics character = new statistics();
+
             Console.WriteLine("Create a character:\n");
 
             characterBuilder.Race();
 
-            Console.WriteLine("test");
+            Console.WriteLine(character.race);
             Console.ReadLine();
         }
     }
