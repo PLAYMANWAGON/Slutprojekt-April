@@ -2,12 +2,25 @@ using System;
 
 namespace Slutprojekt
 {
+
     public class statistics
     {
-        public string race = "";
+        public string race;
+        public string build;
+        public int level;
+        public int hp;
+        public int maxHp;
 
-        public string build = "";
+        public void setRace(string text)
+        {
+            race = text; 
+        }
 
-        public int level = 1;
+        public string getRace()
+        {
+            return race;
+        }
+
     }
+
 }

@@ -27,14 +27,29 @@ namespace Slutprojekt
             Console.ReadLine();
             Console.Clear();
 
-            statistics character = new statistics();
+            // statistics character = new statistics();
 
             Console.WriteLine("Create a character:\n");
 
             characterBuilder.Race();
 
-            Console.WriteLine(character.race);
+
+            statistics hero = characterBuilder.Race();
+
+            Console.WriteLine(hero.race);
             Console.ReadLine();
+
+            Console.WriteLine("What do you want to do?");
+            Console.WriteLine("1. Fight       2. Store       3. Inventory       4. Quit");
+
+            string action = Console.ReadLine();
+
+            if (action == "1" || action == "Fight" || action == "fight")
+            {
+                
+
+            }
+
         }
     }
 }
