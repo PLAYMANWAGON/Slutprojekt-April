@@ -11,16 +11,6 @@ namespace Slutprojekt
         public int hp;
         public int maxHp;
 
-        public void setRace(string text)
-        {
-            race = text; 
-        }
-
-        public string getRace()
-        {
-            return race;
-        }
-
     }
 
 }

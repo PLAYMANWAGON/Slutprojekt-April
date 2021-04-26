@@ -6,7 +6,7 @@ namespace Slutprojekt
     {
         static void Main(string[] args)
         {
-            
+
             Console.WriteLine("==================================================");
             Console.WriteLine(" ██████╗  █████╗ ███╗   ███╗██╗███╗   ██╗ ██████╗ ");
             Console.WriteLine("██╔════╝ ██╔══██╗████╗ ████║██║████╗  ██║██╔════╝ ");
@@ -27,16 +27,11 @@ namespace Slutprojekt
             Console.ReadLine();
             Console.Clear();
 
-            // statistics character = new statistics();
-
             Console.WriteLine("Create a character:\n");
-
-            characterBuilder.Race();
-
 
             statistics hero = characterBuilder.Race();
 
-            Console.WriteLine(hero.race);
+            Console.WriteLine("you are a " + hero.race + " and your class is a " + hero.build);
             Console.ReadLine();
 
             Console.WriteLine("What do you want to do?");
@@ -46,7 +41,7 @@ namespace Slutprojekt
 
             if (action == "1" || action == "Fight" || action == "fight")
             {
-                
+
 
             }
 

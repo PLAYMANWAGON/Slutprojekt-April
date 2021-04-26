@@ -5,7 +5,7 @@ using System;
 namespace Slutprojekt
 {
     public class characterBuilder
-    {   
+    {
 
 
         public static statistics Race()
@@ -13,44 +13,94 @@ namespace Slutprojekt
 
             statistics character = new statistics();
 
-            Console.WriteLine("Race:");
-            Console.WriteLine("1. Human       2. Gnome       3. Ork       4. Italian");
+            string input = "";
 
-            if ("1" == Console.ReadLine() || "Human" == Console.ReadLine() || "human" == Console.ReadLine())
+            bool mistake = true;
+
+            while (mistake == true)
             {
-                character.race = "Human";
-            }
-            else if ("2" == Console.ReadLine() || "Gnome" == Console.ReadLine() || "gnome" == Console.ReadLine())
-            {
-                character.race = "Gnome";
-            }
-            else if ("3" == Console.ReadLine() || "Ork" == Console.ReadLine() || "ork" == Console.ReadLine())
-            {
-                character.race = "Ork";
-            }
-            else if ("4" == Console.ReadLine() || "Italian" == Console.ReadLine() || "italian" == Console.ReadLine())  
-            {
-                character.race = "Italian";
-            }
-            else
-            {
-                Console.WriteLine("Something's wrong, try again!");
-                Console.Clear();
-                Race();
+
+                Console.WriteLine("Race:");
+                Console.WriteLine("1. Human       2. Gnome       3. Ork       4. Italian");
+
+                input = Console.ReadLine();
+
+                if ("1" == input || "Human" == input || "human" == input)
+                {
+                    character.race = "Human";
+                    mistake = false;
+                }
+                else if ("2" == input || "Gnome" == input || "gnome" == input)
+                {
+                    character.race = "Gnome";
+                    mistake = false;
+                }
+                else if ("3" == input || "Ork" == input || "ork" == input)
+                {
+                    character.race = "Ork";
+                    mistake = false;
+                }
+                else if ("4" == input || "Italian" == input || "italian" == input)
+                {
+                    character.race = "Italian";
+                    mistake = false;
+                }
+                else
+                {
+                    Console.WriteLine("You typed something, try again!");
+                    Console.Clear();
+                }
+
             }
 
             return Build(character);
 
-            
         }
 
         public static statistics Build(statistics chr)
         {
 
-            Console.WriteLine("\nBuild:");
-            Console.WriteLine("1. Knight       2. Wizard       3. Brawler       4. Thief");
+            statistics character = new statistics();
 
-            Console.ReadLine();
+            string input2 = "";
+
+            bool mistake = true;
+
+            while (mistake == true)
+            {
+
+                Console.WriteLine("\nBuild:");
+                Console.WriteLine("1. Knight       2. Wizard       3. Brawler       4. Thief");
+
+                input2 = Console.ReadLine();
+
+                if ("1" == input2 || "Knight" == input2 || "knight" == input2)
+                {
+                    character.build = "Knight";
+                    mistake = false;
+                }
+                else if ("2" == input2 || "Wizard" == input2 || "wizard" == input2)
+                {
+                    character.build = "Wizard";
+                    mistake = false;
+                }
+                else if ("3" == input2 || "Brawler" == input2 || "brawler" == input2)
+                {
+                    character.build = "Brawler";
+                    mistake = false;
+                }
+                else if ("4" == input2 || "Thief" == input2 || "thief" == input2)
+                {
+                    character.build = "Thief";
+                    mistake = false;
+                }
+                else
+                {
+                    Console.WriteLine("You typed something wrong, try again!");
+                    Console.Clear();
+                }
+
+            }
 
             return chr;
         }
