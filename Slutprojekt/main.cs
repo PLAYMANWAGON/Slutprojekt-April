@@ -31,7 +31,7 @@ namespace Slutprojekt
 
             statistics hero = characterBuilder.Race();
 
-            Console.WriteLine("you are a " + hero.race + " and your class is a " + hero.build);
+            Console.WriteLine("you are a " + hero.race + " and your job is too slay those who oppose your village!");
             Console.ReadLine();
 
             Console.WriteLine("What do you want to do?");
@@ -41,6 +41,7 @@ namespace Slutprojekt
 
             if (action == "1" || action == "Fight" || action == "fight")
             {
+                
 
 
             }

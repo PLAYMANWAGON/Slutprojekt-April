@@ -7,9 +7,10 @@ namespace Slutprojekt
     {
         public string race;
         public string build;
-        public int level;
+        public int damage;
         public int hp;
         public int maxHp;
+
 
     }
 
